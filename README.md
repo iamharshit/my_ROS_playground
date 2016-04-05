@@ -13,3 +13,22 @@
 ####Before startind working with ROS always run :
 
 * `source /opt/ros/jade/setup.bash`
+
+####Basics of working in ROS 
+
+* Starting ROS master :
+`roscore`
+
+* Starting a ROS node :
+`rosrun <package-name> <executable-name>`
+
+* Get the list of all current running Nodes :
+`rosnode list`
+
+* Inspecting a Node :
+`rosnode info <node-name>`
+
+* Killing a Node : 
+`rosnode kill <node-name>`
+
+######Note: It may be so that the name os the node may not be exactly same as that of its executable.
