@@ -16,11 +16,11 @@
 
 ####Basics of working in ROS 
 
-######Master Node-
+######Master Node->
 * Starting ROS master :
 `roscore`
 
-######Slave Node-
+######Slave Node->
 * Starting a ROS node :
 `rosrun <package-name> <executable-name>`
 
@@ -33,14 +33,14 @@
 * Killing a Node : 
 `rosnode kill <node-name>`
 
-######Topic-
+######Topic->
 *Echoing Messages Published on a Topic :
 `rostopic echo <topic-name>`
 
 *Inspecting a Topic :
 `rostopic info <topic-name>`
 
-######Message-
+######Message->
 *Inspecting a Message type :
 `rosmsg show <message-type-name>`
 
