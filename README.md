@@ -16,9 +16,11 @@
 
 ####Basics of working in ROS 
 
+######Master Node-
 * Starting ROS master :
 `roscore`
 
+######Slave Node-
 * Starting a ROS node :
 `rosrun <package-name> <executable-name>`
 
@@ -31,4 +33,22 @@
 * Killing a Node : 
 `rosnode kill <node-name>`
 
-######Note: It may be so that the name os the node may not be exactly same as that of its executable.
+######Topic-
+*Echoing Messages Published on a Topic :
+`rostopic echo <topic-name>`
+
+*Inspecting a Topic :
+`rostopic info <topic-name>`
+
+######Message-
+*Inspecting a Message type :
+`rosmsg show <message-type-name>`
+
+*Publishing message by Hand :
+`rostopic pub -r <rate-in-hz> <topic-name> <message-type> <message-content>`
+
+alternative : 
+`rostopic pub <topic-name> <message-type> <message-content>`
+(format for <message-content> can be got by pressing tab twice)
+
+######Note: It may be so that the name of the node may not be exactly same as that of its executable.
