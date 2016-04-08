@@ -51,4 +51,7 @@ alternative :
 `rostopic pub <topic-name> <message-type> <message-content>`
 (format for <message-content> can be got by pressing tab twice)
 
+######Checking for Problem->
+`roswtf`
+
 ######Note: It may be so that the name of the node may not be exactly same as that of its executable.
