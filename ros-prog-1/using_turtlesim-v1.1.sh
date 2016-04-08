@@ -19,4 +19,4 @@ rosrun turtlesim turtle_teleop_key __name:=D
 #Note: -using __name parameter we are overiding the default name that each node tries to write to itself
 #      -these are needed because ros does not allow multiple node with the same name
 #      -if another node of the same executable file is run without giving it a name(and also the first one is not given name)
-#       then the second node would run file but the first node would automatically shut down.
+#       then the second node would run fine but the first node would automatically shut down.
