@@ -35,4 +35,7 @@ Write the ROS program in your preffered programming language (mine is c++) and s
 
   Note: This sets several enviornmental variables that enables ROS to find package and its executables. This command needed to be done only once even if we modify our code and recompile with catkin_make.
 
+#####4)Executing the new program
+ * run the program as uasual, as we do for running any other built in program in ros i.e :  
+   `rosrun <package-name> <executable-name>`
 
