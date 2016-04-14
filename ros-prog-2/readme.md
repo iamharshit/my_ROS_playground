@@ -31,7 +31,7 @@ Write the ROS program in your preffered programming language (mine is c++) and s
   Note: This command does several configuration steps and make 2 subdirectories (devel and build) within our workspace.This command needed to be executed everytime we recompile.
 
 * Sourcing setup.bash: We need to execute setup.bash created by 'catkin_make' inside the devel subdir. of workspace.
-  - run(in terminal): `source setup.bash`
+  - run(in terminal): `source devel/setup.bash`
 
   Note: This sets several enviornmental variables that enables ROS to find package and its executables. This command needed to be done only once even if we modify our code and recompile with catkin_make.
 
