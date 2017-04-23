@@ -1,6 +1,6 @@
 # my_ROS_playground
 
-####ROS Installation on Ubuntu :
+#### ROS Installation on Ubuntu :
 
      Type the following commands on Terminal 
 
@@ -10,17 +10,17 @@
 * `sudo -E rosdep init`
 * `rosdep update`
 
-####Before startind working with ROS always run :
+#### Before startind working with ROS always run :
 
 * `source /opt/ros/jade/setup.bash`
 
-####Basics of working in ROS 
+#### Basics of working in ROS 
 
-######Master Node->
+###### Master Node->
 * Starting ROS master :
 `roscore`
 
-######Slave Node->
+###### Slave Node->
 * Starting a ROS node :
 `rosrun <package-name> <executable-name>`
 
@@ -33,25 +33,25 @@
 * Killing a Node : 
 `rosnode kill <node-name>`
 
-######Topic->
-*Echoing Messages Published on a Topic :
+###### Topic->
+* Echoing Messages Published on a Topic :
 `rostopic echo <topic-name>`
 
-*Inspecting a Topic :
+* Inspecting a Topic :
 `rostopic info <topic-name>`
 
-######Message->
-*Inspecting a Message type :
+###### Message->
+* Inspecting a Message type :
 `rosmsg show <message-type-name>`
 
-*Publishing message by Hand :
+* Publishing message by Hand :
 `rostopic pub -r <rate-in-hz> <topic-name> <message-type> <message-content>`
 
 alternative : 
 `rostopic pub <topic-name> <message-type> <message-content>`
 (format for <message-content> can be got by pressing tab twice)
 
-######Checking for Problem->
+###### Checking for Problem->
 `roswtf`
 
-######Note: It may be so that the name of the node may not be exactly same as that of its executable.
+###### Note: It may be so that the name of the node may not be exactly same as that of its executable.
